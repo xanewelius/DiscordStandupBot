@@ -1,0 +1,12 @@
+{
+  "bot_token": "OTYyMzI5NzUyODgwOTY3Njky.YlF9bA.psifzthGf6VJIt94ZK91rOxny8A",
+  "command_prefix": "!",
+  "standup": {
+    "questions_start_time": "13:53:30",
+    "questions_end_time": "13:54:30",
+    "excluded_days": []
+  },
+  "database": {
+    "database_url": "sqlite://{sqlite_path}"
+  }
+}

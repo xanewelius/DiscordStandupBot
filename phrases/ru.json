@@ -1,0 +1,34 @@
+{
+  "default": {
+    "bot_started": "Бот {bot.user} успешно запущен"
+  },
+  "standup": {
+    "standup_channel_set": "Standup channel has been set to {channel.mention}",
+    "standup_title": "Daily Standup",
+    "standup_description": "This is the newly generated text channel used for daily standups!",
+    "standup_fields": {
+      "Introduction": "Hi! I'm {bot.user.name} and I will be facilitating your daily standups from now on. To view all available commands, try `!help`"
+    },
+    "standup_thread_name": "archive",
+    "member_added": "You are now participating in standup",
+    "standup_questions": [
+      "I have done it!",
+      "What are your goals for today?",
+      "Is there anything stopping you from completing your tasks?"
+    ],
+    "questions_message_fmt": "Here is your daily standup prompt:\n```\n{questions}```\nPlease make sure you have thought about your response **very carefully** as standups are more for *the entire team*.\nOnce you are ready to respond, simply DM me with `!reply ...` where `...` represents your response.",
+    "cant_reply": "You can't send a reply at this time",
+    "not_in_standup": "You are not participating in the standup right now",
+    "updated_response": "Updated response",
+    "already_replied": "You have already replied to the questions",
+    "thread_reply_fmt": "<@{reply.member.id}>\n{reply.formatted_content}",
+    "standup_results_description_fmt": "Hooligans: {hooligans}\n\n{replies}",
+    "page_description_fmt": "{replies}",
+    "member_reply_fmt": "<@{member.id}>\n{member.reply.formatted_content}",
+    "no_hooligans": "No",
+    "list_title": "Standup members",
+    "no_longer_a_member": "You're no longer participating in standup",
+    "reset_message": "All standup data has been reset",
+    "no_reply": "You haven't sent a reply yet"
+  }
+}
